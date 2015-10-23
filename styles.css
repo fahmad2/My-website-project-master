@@ -1,0 +1,34 @@
+#topOfPage{
+	font-family: "Courier";
+	font-size: 48px; 
+	color: blue;
+}
+
+.itemBar{
+	border-style: solid; 
+	border-color: blue;
+	border-radius: 5em;
+	border-width: .5em;
+	background: blue;
+	position: absolute;
+
+}
+li{
+	display: inline-block;
+	font-family: "Courier";
+	border-style: solid; 
+	border-color: orange;
+	border-spacing: 15;
+	border-radius: 5em;
+	border-width: .5em;
+	background: orange;
+	margin-right: 1.5em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+li:hover {
+	background: white;
+	border-color: white;
+}
+
